@@ -1,0 +1,25 @@
+.wrapper{
+	display: flex;
+    align-items: center;
+    flex-direction: column; 
+    justify-content: center;
+	background: $brand-grey-o;
+	padding: 20px;
+	height: 100%;
+	width: 100%;
+}
+.container{
+	width: 80%;
+	height: 650px;
+	position: relative;
+	background: #fff;
+	margin: 0 auto;
+	box-shadow: 0 15px 40px rgba(0, 0, 0, .5);
+}
+span.blue, p.blue{
+	color: $brand-blue-o; 
+}
+span.orange{
+	color: $brand-orange;
+	margin-left: 5px;
+}

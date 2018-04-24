@@ -1,0 +1,105 @@
+html {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+    -webkit-box-sizing: inherit;
+    box-sizing: inherit;
+}
+body{
+	margin: 0;
+	padding: 0;
+	height: 100vh;
+}
+/* CLASSES */
+.wrapper{
+	display: flex;
+    align-items: center;
+    flex-direction: column; 
+    justify-content: center;
+	background: lightgrey;
+	padding: 20px;
+	height: 100%;
+	width: 100%;
+}
+.container{
+	width: 80%;
+	height: 650px;
+	position: relative;
+	background: #fff;
+	margin: 0 auto;
+	box-shadow: 0 15px 40px rgba(0, 0, 0, .5);
+}
+span.blue{
+	color: #008DD2; 
+}
+span.orange{
+	color: orangered;
+	margin-left: 5px;
+}
+
+/* BODY */
+
+.container .left{
+	float: left;
+	width: 50%;
+	height: 100%;
+	background: url('../../assets/img/dan.jpg');
+	background-size: cover;
+	background-position: center;
+}
+.container .left .overlay{
+	background: rgba(0, 0, 0, 0.45);
+	float: left;
+	text-align: center;
+	color: #fff;
+	height: 100%;
+	width: 100%;
+}
+.container .left .overlay .img-text{
+	position: relative;
+	top: 62%;
+	margin: auto;
+	width: 60%;
+}
+.container .left .overlay .img-text h3{
+	font-family: 'Oleo Script', cursive;
+	font-size: 40px;
+	letter-spacing: 2px;
+	font-weight: 400;
+	margin-bottom: -10px;
+}
+.container .left .overlay .img-text p{
+	font-size: 13px;
+	font-family: 'Roboto', serif;
+	opacity: .8
+}
+.container .right{
+	float: right;
+	width: 50%;
+	height: 100%;
+	overflow: scroll;
+}
+.container .right .box{
+	border: none;
+	width: 80%;
+	margin: auto;
+	font-size: 13px;
+	padding: 15px;
+}
+.container .right .box .month{
+	margin-bottom: -15px;
+	font-weight: bold;
+	font-family: 'Roboto',serif;
+	text-transform: uppercase;
+}
+.container .right .box h3{
+	font-family: 'Roboto', serif;
+	font-weight: bold;
+	font-size: 20px;
+	margin-bottom: -10px;
+}
+.container .right .box .blue{
+	font-weight: bold;
+	font-family: 'Roboto', serif;
+}

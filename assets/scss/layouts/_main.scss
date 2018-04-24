@@ -1,0 +1,60 @@
+.container .left{
+	float: left;
+	width: 50%;
+	height: 100%;
+	background: url('../../assets/img/dan.jpg');
+	background-size: cover;
+	background-position: center;
+}
+.container .left .overlay{
+	background: rgba(0, 0, 0, 0.45);
+	float: left;
+	text-align: center;
+	color: $brand-white;
+	height: 100%;
+	width: 100%;
+}
+.container .left .overlay .img-text{
+	position: relative;
+	top: 65%;
+	margin: auto;
+	width: 60%;
+}
+.container .left .overlay .img-text h3{
+	font-family: 'Oleo Script', cursive;
+	font-size: 40px;
+	letter-spacing: 2px;
+	font-weight: 400;
+}
+.container .left .overlay .img-text p{
+	font-size: 13px;
+	font-family: 'Roboto', serif;
+	opacity: .8
+}
+.container .right{
+	float: right;
+	width: 50%;
+	height: 100%;
+}
+.container .right .box{
+    border: none;
+	width: 80%;
+	margin: 20px auto 20px auto;
+	font-size: 13px;
+	padding: 15px;
+}
+.container .right .box .month{
+	font-weight: bold;
+	font-family: 'Roboto',serif;
+	text-transform: uppercase;
+}
+.container .right .box h3{
+	font-family: 'Roboto', serif;
+	font-weight: bold;
+	font-size: 20px;
+}
+.container .right .blue{
+	font-weight: bold;
+    font-family: 'Roboto', serif;
+    margin-top: 13px;
+}
